@@ -8,20 +8,29 @@
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background-color: whitesmoke;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /*Topnv-block*/
-.topnav {
+.navstick {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+}
+
+#topnav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 96px;
     padding: 0 80px;
+    transition: 0.5s;
 }
 
-.topnav button {
+#topnav button {
     width: 126px;
     height: 42px;
     background: none;
