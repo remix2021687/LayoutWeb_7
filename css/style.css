@@ -288,3 +288,71 @@ body {
 }
 
 /*Step-3 endblock*/
+
+/*Step-4 block*/
+.step-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.step-4-header {
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+.step-4-header h1 {
+    font-size: 45px;
+    font-weight: 400;
+    padding-top: 22px;
+}
+
+.step-4-header p {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding-top: 17px;
+}
+
+.step-4-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 95px;
+}
+
+.step-4-box img {padding-right: 56px;}
+
+.step-4-box-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E94D35;
+    color: white;
+    width: 181px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.step-4-box h1 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 1.5px;
+    padding-top: 30px;
+    padding-right: 56px;
+}
+
+.step-4-box p {
+    font-size: 20px;
+    font-size: 300;
+    padding-top: 49px;
+}
+
+/*Step-4 endblock*/
