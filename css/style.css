@@ -6,9 +6,21 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', Arial, sans-serif;
     background-color: whitesmoke;
     overflow-x: hidden;
+}
+
+@keyframes anime1 {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /*Topnv-block*/
@@ -16,7 +28,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: white;
     transition: 0.5s;
 }
 
@@ -38,6 +50,8 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
+.anim-1 {animation: anime1 10s linear infinite;}
 
 .topnav-left {
     display: flex;
@@ -86,11 +100,11 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    transform: rotate(-4deg);
     position: relative;
     left: -10px;
     width: 120%;
     height: 80px;
+    transform: rotate(-4deg);
 }
 
 .step-1-down p {
@@ -100,4 +114,106 @@ body {
 }
 
 .step-1-down img {margin-left: 20px;}
-/*Step-1 endblokc*/
+/*Step-1 endblock*/
+
+/*Step-2 block*/
+.step-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 158px 204px 0 190px;
+    letter-spacing: 0.5;
+}
+
+.step-2-left h3 {
+    font-size: 56px;
+    font-weight: 400;
+    padding-top: 21px;
+}
+
+.step-2-left p {font-size: 23px;}
+
+.step-2-left img {padding: 0 8px;}
+
+.step-2-right h4 {
+    font-size: 31px;
+    font-weight: 400;
+    max-width: 598px;
+    line-height: 40px;
+}
+
+.step-2-right p {
+    margin-top: 36px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.step-2-right-boxs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.step-2-right-box p {
+    color: #E94D35;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 9px;
+}
+
+.step-2-right-box h4 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.step-2-down {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    width: 1060px;
+    height: 156px;
+    margin-top: 120px;
+}
+
+.step-2-down-black {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 352px;
+    height: 156px;
+    
+}
+
+.step-2-down-black h1 {
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.step-2-down-black p {font-size: 20px;}
+
+.step-2-down-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-2-down-white h1 {
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.step-2-down-white p {font-size: 20px;}
+
+/*Step-2 endblock*/
