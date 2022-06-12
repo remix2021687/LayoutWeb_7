@@ -121,8 +121,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin: 158px 204px 0 190px;
+    justify-content: space-evenly;
+    margin: 158px 450px 0 450px;
     letter-spacing: 0.5;
 }
 
@@ -163,6 +163,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     padding-bottom: 9px;
+
 }
 
 .step-2-right-box h4 {
@@ -217,3 +218,73 @@ body {
 .step-2-down-white p {font-size: 20px;}
 
 /*Step-2 endblock*/
+
+/*Step-3 block*/
+.step-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.step-3-header {
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+.step-3-header h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.step-3-header p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.step-3-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 1060px;
+    height: 140px;
+    padding: 0 55px;
+    margin-bottom: 24px;
+}
+
+.step-3-box-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.step-3-box-left h4 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.step-3-box-left p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.step-3-box-left-cube {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E94D35;
+    color: white;
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    margin-right: 22px;
+
+}
+
+/*Step-3 endblock*/
