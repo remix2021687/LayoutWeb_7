@@ -49,7 +49,10 @@ body {
     border: 1px solid black;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.5s;
 }
+
+#topnav button:hover {transform: scale(1.1);}
 
 .anim-1 {animation: anime1 10s linear infinite;}
 
@@ -76,7 +79,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 141px 80px;
 }
 
@@ -255,6 +258,12 @@ body {
     height: 140px;
     padding: 0 55px;
     margin-bottom: 24px;
+    transition: 0.5s;
+}
+
+.step-3-box:hover {
+    transform: scale(1.1);
+    background-color: white;
 }
 
 .step-3-box-left {
@@ -398,6 +407,12 @@ body {
     width: 510px;
     height: 196px;
     padding: 34px;
+    transition: 0.5s;
+}
+
+.step-5-box:hover {
+    transform: scale(1.1);
+    background-color: white;
 }
 
 .step-5-box h2 {
@@ -450,6 +465,135 @@ body {
     width: 241px;
     height: 98px;
     border: 1px solid black;
+    transition: 0.5s;
+}
+
+.step-6-box:hover {
+    transform: scale(1.1);
+    background-color: white;
 }
 
 /*Step-6 endblock*/
+
+/*Step-7 block*/
+.step-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 123px;
+    margin-bottom: 136px;
+}
+
+.step-7 button {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 1060px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.step-7 button:hover {transform: scale(1.1);}
+
+.step-7-header {
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+.step-7-header h1 {
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 56px;
+    margin-top: 22px;
+}
+
+.step-7-header p {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.5x;
+}
+
+.step-7-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 1060px;
+    padding: 13px 34px;
+    margin-bottom: 100px;
+    transition: 0.5s;
+}
+
+.step-7-box:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.step-7-box p {
+    color: #E94D35;
+    letter-spacing: 1.28px;
+    font-weight: 400;  
+}
+
+.step-7-box h2 {
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.step-7-box > p {
+    color: black;
+    font-weight: 400;
+    max-width: 500px;
+    line-height: 24px;
+}
+
+.step-7-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E6E3DE;
+    height: 176px;
+}
+
+.step-7-footer h2 {
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.step-7-footer button {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 140px;
+    height: 56px;
+    margin-left: 39px;
+    font-size: 23px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.step-7-footer button:hover {transform: scale(1.1);}
+
+.inputs {
+    background: none;
+    border: 2px solid black;
+    color: black;
+    width: 354px;
+    height: 56px;
+    font-size: 23px;
+    padding: 0 21px;
+}
+
+/*Step-7 endblock*/
