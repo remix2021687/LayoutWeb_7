@@ -414,3 +414,42 @@ body {
 }
 
 /*Step-5 endblock*/
+
+/*Step-6 block*/
+.step-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 161px;
+}
+
+.step-6-header {text-align: center;}
+
+.step-6-header h2 {
+    padding-top: 22px;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.step-6-content {
+    display: grid;
+    grid-template-columns: repeat(4, 241px);
+    grid-template-rows: repeat(2, 98px);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    margin-top: 62px;
+}
+
+.step-6-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 241px;
+    height: 98px;
+    border: 1px solid black;
+}
+
+/*Step-6 endblock*/
