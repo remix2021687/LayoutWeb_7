@@ -392,11 +392,11 @@ body {
 
 .step-5-content {
     display: grid;
-    grid-template-columns: repeat(2, 510px);
-    grid-template-rows: repeat(2, 196px);
-    grid-column-gap: 120px;
-    grid-row-gap: 120px;
-    margin-top: 60px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 60px;
+    margin-top: 50px;
 }
 
 .step-5-box {
@@ -404,8 +404,6 @@ body {
     flex-direction: column;
     justify-content: center;
     border: 2px solid black;
-    width: 510px;
-    height: 196px;
     padding: 34px;
     transition: 0.5s;
 }
