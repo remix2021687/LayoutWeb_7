@@ -9,3 +9,11 @@ function ScrollNav() {
         topnav.classList.remove("navstick");
     }
 }
+
+$(document).ready(function() {
+    $("#topdown").hide();
+
+    $("#burgger").click(function() {
+        $("#topdown").slideToggle("fast");
+    });
+});

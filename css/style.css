@@ -5,6 +5,7 @@
     margin: 0;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -54,6 +55,8 @@ body {
 
 #topnav button:hover {transform: scale(1.1);}
 
+#burgger {display: none;}
+
 .anim-1 {animation: anime1 10s linear infinite;}
 
 .topnav-left {
@@ -72,6 +75,37 @@ body {
     color: black;
     margin: 0 32px;
 }
+
+#burgger {display: none;}
+
+#topdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: white;
+}
+
+#topdown a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+#topdown button {
+    cursor: pointer;
+    background: none;
+    border: 1px solid black;
+    width: 126px;
+    height: 42px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
 /*Topnav endblock*/
 
 /*Step-1 block*/
@@ -81,6 +115,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 141px 80px;
+    overflow: hidden;
 }
 
 .step-1-left h3 {
@@ -97,12 +132,18 @@ body {
 
 .step-1-left p > img {padding: 0 16px;}
 
+.step-1-right {
+    width: 562px;
+    height: 562px;
+}
+
 .step-1-down {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: black;
+    overflow-x: hidden;
     position: relative;
     left: -10px;
     width: 120%;
@@ -634,3 +675,47 @@ body {
 }
 
 /*Footer endblock*/
+
+/*Media block*/
+
+@media (max-width: 1025px) {
+    .step-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .step-1-left {margin-bottom: 20px;}
+}
+
+@media (max-width: 769px) {}
+
+@media (max-width: 426px) {
+    #topnav button {display: none;}
+    .topnav-center a {display: none;}
+    #burgger {display: block;}
+
+    .step-1 {padding: 141px 40px;}
+
+    .step-1-right {
+        width: 380px;
+        height: 380px;
+    }
+
+    .step-1-left {margin-bottom: 70px;}
+
+    .step-1-left h3 {font-size: 46px;}
+    
+    .step-1-left p {font-size: 16px;}
+
+    .step-1-left p > img {padding: 0 0px;}
+}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 321px) {
+    #topnav {
+        padding: 0 40px;
+    }
+}
+
+/*Media endblock*/
